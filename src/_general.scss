@@ -364,6 +364,18 @@ body {
                 background: #ffffff;
                 border: 1px solid #d6d6d6;
                 border-radius: 4px;
+                position: relative;
+                display: flex;
+                padding-left: 12px;
+                padding-top: 7px;
+                span {
+                  font-family: 'PT Root UI';
+                  font-style: normal;
+                  font-weight: 400;
+                  font-size: 17px;
+                  line-height: 21px;
+                  color: #333333;
+                }
                 select {
                   border: none;
                   font-family: 'PT Root UI';
@@ -373,6 +385,9 @@ body {
                   line-height: 28px;
                   letter-spacing: 0.13px;
                   color: #333333;
+                  position: absolute;
+                  left: 9px;
+                  bottom: 10px;
                 }
               }
               a {
@@ -393,6 +408,18 @@ body {
                 background: #ffffff;
                 border: 1px solid #d6d6d6;
                 border-radius: 4px;
+                position: relative;
+                display: flex;
+                padding-left: 12px;
+                padding-top: 7px;
+                span {
+                  font-family: 'PT Root UI';
+                  font-style: normal;
+                  font-weight: 400;
+                  font-size: 17px;
+                  line-height: 21px;
+                  color: #333333;
+                }
                 select {
                   border: none;
                   font-family: 'PT Root UI';
@@ -402,6 +429,8 @@ body {
                   line-height: 28px;
                   letter-spacing: 0.13px;
                   color: #333333;
+                  position: absolute;
+                  bottom: 9px;
                 }
               }
               a {
@@ -423,11 +452,11 @@ body {
         width: 575px;
         position: relative;
         border-left: 1px solid #d6d6d6;
+        padding-top: 37px;
         .cart-title {
-          margin-top: 37px;
-          margin-bottom: 29px;
+          margin-bottom: 36px;
 
-          span {
+          h2 {
             font-family: 'PT Root UI';
             font-style: normal;
             font-weight: 700;

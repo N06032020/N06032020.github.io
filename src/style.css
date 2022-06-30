@@ -365,6 +365,18 @@ body {
   background: #ffffff;
   border: 1px solid #d6d6d6;
   border-radius: 4px;
+  position: relative;
+  display: flex;
+  padding-left: 12px;
+  padding-top: 7px;
+}
+.page .order-main .order-info .delivery-block .receiver-info .receiver-contacts .receiver-name .name-info span {
+  font-family: "PT Root UI";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 21px;
+  color: #333333;
 }
 .page .order-main .order-info .delivery-block .receiver-info .receiver-contacts .receiver-name .name-info select {
   border: none;
@@ -375,6 +387,9 @@ body {
   line-height: 28px;
   letter-spacing: 0.13px;
   color: #333333;
+  position: absolute;
+  left: 9px;
+  bottom: 10px;
 }
 .page .order-main .order-info .delivery-block .receiver-info .receiver-contacts .receiver-name a {
   font-family: "PT Root UI";
@@ -394,6 +409,18 @@ body {
   background: #ffffff;
   border: 1px solid #d6d6d6;
   border-radius: 4px;
+  position: relative;
+  display: flex;
+  padding-left: 12px;
+  padding-top: 7px;
+}
+.page .order-main .order-info .delivery-block .receiver-info .receiver-contacts .receiver-phone .phone-info span {
+  font-family: "PT Root UI";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 21px;
+  color: #333333;
 }
 .page .order-main .order-info .delivery-block .receiver-info .receiver-contacts .receiver-phone .phone-info select {
   border: none;
@@ -404,6 +431,8 @@ body {
   line-height: 28px;
   letter-spacing: 0.13px;
   color: #333333;
+  position: absolute;
+  bottom: 9px;
 }
 .page .order-main .order-info .delivery-block .receiver-info .receiver-contacts .receiver-phone a {
   font-family: "PT Root UI";
@@ -417,12 +446,12 @@ body {
   width: 575px;
   position: relative;
   border-left: 1px solid #d6d6d6;
+  padding-top: 37px;
 }
 .page .order-main .order-info .cart-block .cart-title {
-  margin-top: 37px;
-  margin-bottom: 29px;
+  margin-bottom: 36px;
 }
-.page .order-main .order-info .cart-block .cart-title span {
+.page .order-main .order-info .cart-block .cart-title h2 {
   font-family: "PT Root UI";
   font-style: normal;
   font-weight: 700;

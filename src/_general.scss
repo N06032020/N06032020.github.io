@@ -349,6 +349,15 @@ body {
               line-height: 37px;
               color: #333333;
             }
+            .new-receiver__mobile {
+              display: none;
+              font-family: 'PT Root UI';
+              font-style: normal;
+              font-weight: 400;
+              font-size: 17px;
+              line-height: 20px;
+              color: #065cc2;
+            }
           }
           .receiver-contacts {
             display: flex;
@@ -557,6 +566,23 @@ body {
         text-align: right;
         color: #333333;
       }
+    }
+  }
+
+  .choose-date__mobile {
+    display: none;
+    align-items: center;
+    max-width: 209px;
+    width: 100%;
+    height: 28px;
+
+    .date-link__mobile {
+      font-family: 'PT Root UI';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 17px;
+      line-height: 21px;
+      color: #065cc2;
     }
   }
 }

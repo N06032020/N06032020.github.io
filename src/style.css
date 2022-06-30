@@ -624,6 +624,9 @@ body {
     font-size: 14px !important;
     line-height: 18px !important;
   }
+  .date-info .date-right {
+    width: 66% !important;
+  }
   .date-info .date-right .right-info {
     width: 117px !important;
     height: 75px !important;
@@ -796,6 +799,11 @@ body {
     align-items: center !important;
     height: 60% !important;
     width: 33% !important;
+  }
+}
+@media (max-width: 980px) {
+  .cart-block {
+    display: none;
   }
 }
 

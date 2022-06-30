@@ -86,6 +86,9 @@ body {
               display: flex;
               align-items: center;
               justify-content: center;
+              .arrow-left {
+                transform: scale(-1, 1);
+              }
             }
           }
         }
@@ -94,8 +97,8 @@ body {
           max-width: 992px;
           width: 100%;
           display: flex;
-          justify-content: space-between;
           margin-bottom: 1px;
+          gap: 1.5%;
           .courier-left {
             max-width: 489px;
             width: 100%;
@@ -458,10 +461,11 @@ body {
 
       //=====Cart=====//
       .cart-block {
-        width: 575px;
+        width: 625px;
         position: relative;
         border-left: 1px solid #d6d6d6;
         padding-top: 37px;
+        padding-left: 50px;
         .cart-title {
           margin-bottom: 36px;
 
@@ -583,6 +587,118 @@ body {
       font-size: 17px;
       line-height: 21px;
       color: #065cc2;
+    }
+  }
+  .summary__mobile {
+    display: none;
+    width: 92%;
+    margin-bottom: 13px;
+    justify-content: space-between;
+    .summary-price {
+      font-family: 'PT Root UI';
+      font-style: normal;
+      font-weight: 700;
+      font-size: 14px;
+      line-height: 18px;
+      color: #333333;
+    }
+    .more {
+      font-family: 'PT Root UI';
+      font-style: normal;
+      font-weight: 500;
+      font-size: 14px;
+      line-height: 18px;
+      color: #333333;
+    }
+  }
+
+  .address__mobile {
+    display: none;
+    flex-direction: column;
+    justify-content: center;
+    width: 84%;
+    margin-left: 19px;
+    margin-right: 3px;
+
+    h3 {
+      font-family: 'PT Root UI';
+      font-style: normal;
+      font-weight: 700;
+      font-size: 17px;
+      line-height: 21px;
+      color: #333333;
+    }
+    span {
+      font-family: 'PT Root UI';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 14px;
+      line-height: 18px;
+      color: #333333;
+    }
+  }
+  .date-left__mobile {
+    display: none;
+    max-width: 272px;
+    width: 117px;
+    height: 75px;
+    background: #ffffff;
+    border: 2px solid #065cc2;
+    border-radius: 4px;
+    padding: 17px;
+    h3 {
+      font-family: 'PT Root UI';
+      font-style: normal;
+      font-weight: 700;
+      font-size: 17px;
+      line-height: 21px;
+      letter-spacing: 0.13px;
+      color: #333333;
+      margin-bottom: -12px;
+    }
+    span {
+      font-family: 'PT Root UI';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 14px;
+      line-height: 18px;
+      letter-spacing: 0.13px;
+      color: #333333;
+    }
+  }
+  .date-right__mobile {
+    display: none;
+    align-items: center;
+    max-width: 500px;
+    width: 66%;
+    height: 96px;
+    .right-info {
+      max-width: 261px;
+      width: 117px;
+      height: 75px;
+      background: #ffffff;
+      border: 1px solid #d6d6d6;
+      border-radius: 4px;
+      padding: 17px;
+      h3 {
+        font-family: 'PT Root UI';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 17px;
+        line-height: 21px;
+        letter-spacing: 0.13px;
+        color: #333333;
+        margin-bottom: -12px;
+      }
+      span {
+        font-family: 'PT Root UI';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 18px;
+        letter-spacing: 0.13px;
+        color: #333333;
+      }
     }
   }
 }

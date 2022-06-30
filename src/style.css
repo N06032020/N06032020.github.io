@@ -1,0 +1,518 @@
+@import '/src/fonts/stylesheet.css';
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+* a {
+  text-decoration: none;
+}
+
+body {
+  font-family: "PT Root UI";
+}
+
+.page {
+  max-width: 1920px;
+  width: 100%;
+  height: 976px;
+  background: #ffffff;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+.page .order-main {
+  max-width: 1905px;
+  width: 100%;
+  height: 861px;
+  background: #f2f2f2;
+  font-family: "PT Root UI";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 35px;
+  line-height: 44px;
+  color: #333333;
+}
+.page .order-main .main-title {
+  max-width: 325px;
+  width: 100%;
+  height: 44px;
+  font-family: "PT Root UI";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 35px;
+  line-height: 44px;
+  color: #333333;
+  margin-left: 120px;
+  margin-top: 48px;
+  margin-bottom: 19px;
+}
+.page .order-main .order-info {
+  max-width: 1743px;
+  width: 100%;
+  height: 746px;
+  background: #ffffff;
+  border-top: 1px solid #c5c5c5;
+  border-left: 1px solid #c5c5c5;
+  border-right: 1px solid #c5c5c5;
+  border-radius: 5px;
+  margin-left: 77px;
+  display: flex;
+  justify-content: space-between;
+}
+.page .order-main .order-info .delivery-block {
+  max-width: 992px;
+  width: 100%;
+  margin-left: 42px;
+}
+.page .order-main .order-info .delivery-block .delivery-title {
+  max-width: 992px;
+  width: 100%;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 37px;
+  margin-bottom: 16px;
+}
+.page .order-main .order-info .delivery-block .delivery-title h2 {
+  font-family: "PT Root UI";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 29px;
+  line-height: 37px;
+  color: #333333;
+}
+.page .order-main .order-info .delivery-block .delivery-title .arrows {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 8.5%;
+}
+.page .order-main .order-info .delivery-block .delivery-title .arrows .arrow {
+  width: 40px;
+  height: 40px;
+  background: #ffffff;
+  border: 1px solid #d6d6d6;
+  border-radius: 4px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.page .order-main .order-info .delivery-block .courier-info {
+  max-width: 992px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 1px;
+}
+.page .order-main .order-info .delivery-block .courier-info .courier-left {
+  max-width: 489px;
+  width: 100%;
+  height: 152px;
+  background: #ffffff;
+  border: 2px solid #065cc2;
+  border-radius: 4px;
+  display: flex;
+}
+.page .order-main .order-info .delivery-block .courier-info .courier-left .address {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 77%;
+  margin-left: 19px;
+  margin-right: 3px;
+}
+.page .order-main .order-info .delivery-block .courier-info .courier-left .address h3 {
+  font-family: "PT Root UI";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 28px;
+  letter-spacing: 0.13px;
+  color: #333333;
+}
+.page .order-main .order-info .delivery-block .courier-info .courier-left .address span {
+  font-family: "PT Root UI";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 28px;
+  color: #1a1a1a;
+}
+.page .order-main .order-info .delivery-block .courier-info .courier-left .courier-price {
+  display: flex;
+  align-items: center;
+}
+.page .order-main .order-info .delivery-block .courier-info .courier-left .courier-price span {
+  font-family: "PT Root UI";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 28px;
+  letter-spacing: 0.13px;
+  color: #333333;
+}
+.page .order-main .order-info .delivery-block .courier-info .courier-right {
+  display: flex;
+  max-width: 489px;
+  width: 100%;
+  height: 152px;
+  background: #ffffff;
+  border: 1px solid #d6d6d6;
+  border-radius: 4px;
+}
+.page .order-main .order-info .delivery-block .courier-info .courier-right .address {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 77%;
+  margin-left: 19px;
+  margin-right: 41px;
+}
+.page .order-main .order-info .delivery-block .courier-info .courier-right .address h3 {
+  font-family: "PT Root UI";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 28px;
+  letter-spacing: 0.13px;
+  color: #333333;
+}
+.page .order-main .order-info .delivery-block .courier-info .courier-right .address span {
+  font-family: "PT Root UI";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 28px;
+  color: #1a1a1a;
+}
+.page .order-main .order-info .delivery-block .courier-info .courier-right .courier-price {
+  display: flex;
+  align-items: center;
+}
+.page .order-main .order-info .delivery-block .courier-info .courier-right .courier-price span {
+  font-family: "PT Root UI";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 28px;
+  letter-spacing: 0.13px;
+  color: #333333;
+}
+.page .order-main .order-info .delivery-block .choose-location {
+  margin-bottom: 27px;
+}
+.page .order-main .order-info .delivery-block .choose-location .location-link {
+  font-family: "PT Root UI";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 28px;
+  color: #065cc2;
+}
+.page .order-main .order-info .delivery-block .date-info {
+  max-width: 992px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  margin-bottom: 14px;
+  gap: 1.5%;
+}
+.page .order-main .order-info .delivery-block .date-info .date-left {
+  max-width: 272px;
+  width: 100%;
+  height: 96px;
+  background: #ffffff;
+  border: 2px solid #065cc2;
+  border-radius: 4px;
+  padding: 17px;
+}
+.page .order-main .order-info .delivery-block .date-info .date-left h3 {
+  font-family: "PT Root UI";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 28px;
+  letter-spacing: 0.13px;
+  color: #333333;
+  margin-bottom: -12px;
+}
+.page .order-main .order-info .delivery-block .date-info .date-left span {
+  font-family: "PT Root UI";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 28px;
+  letter-spacing: 0.13px;
+  color: #333333;
+}
+.page .order-main .order-info .delivery-block .date-info .date-right {
+  display: flex;
+  align-items: center;
+  max-width: 500px;
+  width: 100%;
+  height: 96px;
+}
+.page .order-main .order-info .delivery-block .date-info .date-right .right-info {
+  max-width: 261px;
+  width: 100%;
+  height: 96px;
+  background: #ffffff;
+  border: 1px solid #d6d6d6;
+  border-radius: 4px;
+  padding: 17px;
+}
+.page .order-main .order-info .delivery-block .date-info .date-right .right-info h3 {
+  font-family: "PT Root UI";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 28px;
+  letter-spacing: 0.13px;
+  color: #333333;
+  margin-bottom: -12px;
+}
+.page .order-main .order-info .delivery-block .date-info .date-right .right-info span {
+  font-family: "PT Root UI";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 28px;
+  letter-spacing: 0.13px;
+  color: #333333;
+}
+.page .order-main .order-info .delivery-block .date-info .choose-date {
+  display: flex;
+  align-items: center;
+  max-width: 209px;
+  width: 100%;
+  height: 28px;
+  margin-left: 29px;
+}
+.page .order-main .order-info .delivery-block .date-info .choose-date .date-link {
+  font-family: "PT Root UI";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 28px;
+  color: #065cc2;
+}
+.page .order-main .order-info .delivery-block .form {
+  margin-bottom: 30px;
+}
+.page .order-main .order-info .delivery-block .form .message-form {
+  display: flex;
+  align-items: center;
+  margin-bottom: 14px;
+}
+.page .order-main .order-info .delivery-block .form .message-form .message-checkbox {
+  width: 24px;
+  height: 24px;
+}
+.page .order-main .order-info .delivery-block .form .message-form .message-text {
+  font-family: "PT Root UI";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 28px;
+  color: #333333;
+  margin-left: 10px;
+}
+.page .order-main .order-info .delivery-block .form .delivery-form {
+  display: flex;
+  align-items: center;
+}
+.page .order-main .order-info .delivery-block .form .delivery-form .delivery-checkbox {
+  width: 24px;
+  height: 24px;
+  opacity: 0.3;
+}
+.page .order-main .order-info .delivery-block .form .delivery-form .delivery-text {
+  font-family: "PT Root UI";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 28px;
+  color: #333333;
+  margin-left: 10px;
+}
+.page .order-main .order-info .delivery-block .receiver-info .receiver-title {
+  margin-bottom: 14px;
+}
+.page .order-main .order-info .delivery-block .receiver-info .receiver-title h2 {
+  font-family: "PT Root UI";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 29px;
+  line-height: 37px;
+  color: #333333;
+}
+.page .order-main .order-info .delivery-block .receiver-info .receiver-contacts {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 88%;
+}
+.page .order-main .order-info .delivery-block .receiver-info .receiver-contacts .receiver-name {
+  width: 572px;
+  height: 116px;
+}
+.page .order-main .order-info .delivery-block .receiver-info .receiver-contacts .receiver-name .name-info {
+  width: 572px;
+  height: 74px;
+  background: #ffffff;
+  border: 1px solid #d6d6d6;
+  border-radius: 4px;
+}
+.page .order-main .order-info .delivery-block .receiver-info .receiver-contacts .receiver-name .name-info select {
+  border: none;
+  font-family: "PT Root UI";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 28px;
+  letter-spacing: 0.13px;
+  color: #333333;
+}
+.page .order-main .order-info .delivery-block .receiver-info .receiver-contacts .receiver-name a {
+  font-family: "PT Root UI";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 28px;
+  color: #065cc2;
+}
+.page .order-main .order-info .delivery-block .receiver-info .receiver-contacts .receiver-phone {
+  width: 287px;
+  height: 116px;
+}
+.page .order-main .order-info .delivery-block .receiver-info .receiver-contacts .receiver-phone .phone-info {
+  width: 287px;
+  height: 74px;
+  background: #ffffff;
+  border: 1px solid #d6d6d6;
+  border-radius: 4px;
+}
+.page .order-main .order-info .delivery-block .receiver-info .receiver-contacts .receiver-phone .phone-info select {
+  border: none;
+  font-family: "PT Root UI";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 28px;
+  letter-spacing: 0.13px;
+  color: #333333;
+}
+.page .order-main .order-info .delivery-block .receiver-info .receiver-contacts .receiver-phone a {
+  font-family: "PT Root UI";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 28px;
+  color: #065cc2;
+}
+.page .order-main .order-info .cart-block {
+  width: 575px;
+  position: relative;
+  border-left: 1px solid #d6d6d6;
+}
+.page .order-main .order-info .cart-block .cart-title {
+  margin-top: 37px;
+  margin-bottom: 29px;
+}
+.page .order-main .order-info .cart-block .cart-title span {
+  font-family: "PT Root UI";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 29px;
+  line-height: 37px;
+  color: #333333;
+}
+.page .order-main .order-info .cart-block .cart-info {
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+.page .order-main .order-info .cart-block .cart-info .info-descr {
+  font-family: "PT Root UI";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 21px;
+  color: #333333;
+  margin-right: 30.8%;
+}
+.page .order-main .order-info .cart-block .cart-info .info-price {
+  font-family: "PT Root UI";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 21px;
+  text-align: right;
+  font-feature-settings: "pnum" on, "lnum" on;
+  color: #333333;
+}
+.page .order-main .order-info .cart-block .cart-info:after {
+  content: "";
+  position: absolute;
+  width: 489px;
+  height: 1px;
+  left: 0px;
+  top: 150px;
+  background: #d6d6d6;
+}
+.page .order-footer {
+  max-width: 1920px;
+  width: 100%;
+  height: 119px;
+  background: white;
+  border: 1px solid #c5c5c5;
+  margin-top: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.page .order-footer .footer-btn {
+  max-width: 398px;
+  width: 100%;
+  height: 80px;
+  background: linear-gradient(0deg, #ec0002, #ec0002), linear-gradient(91.91deg, rgba(208, 38, 38, 0) 0%, #d02626 99.65%), #ff0000;
+  border: 1px solid #e01d1d;
+  box-shadow: 0px 3px 8px rgba(0, 0, 0, 0.12), 0px 3px 1px rgba(0, 0, 0, 0.04), 0px 2px 0px rgba(149, 135, 128, 0.4);
+  border-radius: 4px;
+  margin-left: 120px;
+  font-family: "PT Root UI";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 29px;
+  line-height: 37px;
+  letter-spacing: 0.5px;
+  color: #ffffff;
+}
+.page .order-footer .summary {
+  display: flex;
+  align-items: center;
+  margin-right: 184px;
+}
+.page .order-footer .summary span {
+  font-family: "PT Root UI";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 28px;
+  color: #333333;
+  margin-right: 113px;
+}
+.page .order-footer .summary b {
+  font-family: "PT Root UI";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 35px;
+  line-height: 44px;
+  text-align: right;
+  color: #333333;
+}
+
+/*# sourceMappingURL=style.css.map */

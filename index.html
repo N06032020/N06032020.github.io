@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="src/style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="page">
+      <div class="order-main">
+        <div class="main-title">Оформление заказа</div>
+        <div class="order-info">
+          <!-- Delivery -->
+          <div class="delivery-block">
+            <div class="delivery-title">
+              <h2>Доставка</h2>
+              <div class="arrows">
+                <button class="arrow">
+                  <img class="arrow-left" src="/src/images/vector.svg" alt="arrow-left" />
+                </button>
+                <button class="arrow">
+                  <img src="/src/images/vector.svg" alt="arrow-right" />
+                </button>
+              </div>
+            </div>
+
+            <!-- Couriers -->
+            <div class="courier-info">
+              <div class="courier-left">
+                <div class="address">
+                  <h3>Почта России, курьер — 24-26 сент.</h3>
+                  <span>ул. Академика Королева, 73/3, Петропавловск- Камчатский, 683000</span>
+                </div>
+                <div class="courier-price">
+                  <span>+367 ₽</span>
+                </div>
+              </div>
+              <div class="courier-right">
+                <div class="address">
+                  <h3>Лабиринт, курьер — 25 сент.</h3>
+                  <span>Можайское шоссе, д. 21, кв. 50, Москва, 121471</span>
+                </div>
+                <div class="courier-price">
+                  <span>0 ₽</span>
+                </div>
+              </div>
+            </div>
+            <!-- /Couriers -->
+
+            <div class="choose-location">
+              <a class="location-link" href="#">Выбрать новое место и способ</a>
+            </div>
+
+            <!-- Date and time -->
+            <div class="date-info">
+              <div class="date-left">
+                <h3>пн, 24 сен — ср, 26 сен</h3>
+                <span>10:00–19:00</span>
+              </div>
+              <div class="date-right">
+                <div class="right-info">
+                  <h3>чт, 27 сен — пт, 28 сен</h3>
+                  <span>10:00–19:00</span>
+                </div>
+                <div class="choose-date">
+                  <a class="date-link" href="#">Другие дата и время</a>
+                </div>
+              </div>
+            </div>
+            <!-- /Date and time -->
+
+            <!-- Checkboxes -->
+            <form class="form">
+              <label>
+                <div class="message-form">
+                  <input class="message-checkbox" type="checkbox" checked />
+                  <span class="message-text">Viber/СМС уведомления о статусе заказа</span>
+                </div>
+              </label>
+              <label>
+                <div class="delivery-form">
+                  <input class="delivery-checkbox" type="checkbox" checked />
+                  <span class="delivery-text">Оставить у двери (бесконтактная доставка)</span>
+                </div>
+              </label>
+            </form>
+            <!-- /Checkboxes -->
+
+            <!-- Receiver -->
+            <div class="receiver-info">
+              <div class="receiver-title">
+                <h2>Получатель</h2>
+              </div>
+              <div class="receiver-contacts">
+                <div class="receiver-name">
+                  <div class="name-info">
+                    <select>
+                      <option value="name">Вольфганг Вениаминович Константинопольский</option>
+                    </select>
+                  </div>
+                  <a href="#">Новый получатель</a>
+                </div>
+                <div class="receiver-phone">
+                  <div class="phone-info">
+                    <select>
+                      <option value="name">+7 910 234-56-78</option>
+                    </select>
+                  </div>
+                  <a href="#">Новый телефон</a>
+                </div>
+              </div>
+            </div>
+            <!-- /Receiver -->
+          </div>
+          <!-- /Delivery -->
+
+          <!-- Cart -->
+          <div class="cart-block">
+            <div class="cart-title"><span>В заказе 4 товара (2 кг)</span></div>
+            <div class="cart-info">
+              <div class="info-descr">
+                <div class="price">Цена товаров</div>
+                <br />
+                <div class="discount">Все скидки</div>
+                <br />
+                <div class="prepayment-discount">Скидка за предоплату</div>
+              </div>
+
+              <div class="info-price">
+                <div>29 456 ₽</div>
+                <br />
+                <div>–7 732 ₽</div>
+                <br />
+                <div>–3%</div>
+              </div>
+            </div>
+          </div>
+          <!-- /Cart -->
+        </div>
+      </div>
+
+      <!-- Footer -->
+      <div class="order-footer">
+        <button class="footer-btn">Оформить и оплатить</button>
+        <div class="summary"><span>Итого к оплате на сайте:</span><b>21 072 ₽</b></div>
+      </div>
+      <!-- /Footer -->
+    </div>
+  </body>
+</html>

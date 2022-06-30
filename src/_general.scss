@@ -1,0 +1,533 @@
+body {
+  font-family: 'PT Root UI';
+}
+.page {
+  max-width: 1920px;
+  width: 100%;
+  height: 976px;
+  background: #ffffff;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  .order-main {
+    max-width: 1905px;
+    width: 100%;
+    height: 861px;
+    background: #f2f2f2;
+
+    font-family: 'PT Root UI';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 35px;
+    line-height: 44px;
+    color: #333333;
+    .main-title {
+      max-width: 325px;
+      width: 100%;
+      height: 44px;
+      font-family: 'PT Root UI';
+      font-style: normal;
+      font-weight: 700;
+      font-size: 35px;
+      line-height: 44px;
+      color: #333333;
+      margin-left: 120px;
+      margin-top: 48px;
+      margin-bottom: 19px;
+    }
+    .order-info {
+      max-width: 1743px;
+      width: 100%;
+      height: 746px;
+      background: #ffffff;
+      border-top: 1px solid #c5c5c5;
+      border-left: 1px solid #c5c5c5;
+      border-right: 1px solid #c5c5c5;
+      border-radius: 5px;
+      // margin: 0 auto;
+      margin-left: 77px;
+      display: flex;
+      justify-content: space-between;
+
+      //=====Delivery=====//
+      .delivery-block {
+        max-width: 992px;
+        width: 100%;
+        margin-left: 42px;
+        .delivery-title {
+          max-width: 992px;
+          width: 100%;
+          height: 40px;
+          display: flex;
+          align-items: center;
+          justify-content: space-between;
+          margin-top: 37px;
+          margin-bottom: 16px;
+          h2 {
+            font-family: 'PT Root UI';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 29px;
+            line-height: 37px;
+            color: #333333;
+          }
+          .arrows {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            width: 8.5%;
+            .arrow {
+              width: 40px;
+              height: 40px;
+              background: #ffffff;
+              border: 1px solid #d6d6d6;
+              border-radius: 4px;
+              display: flex;
+              align-items: center;
+              justify-content: center;
+            }
+          }
+        }
+        //=====Courier=====//
+        .courier-info {
+          max-width: 992px;
+          width: 100%;
+          display: flex;
+          justify-content: space-between;
+          margin-bottom: 1px;
+          .courier-left {
+            max-width: 489px;
+            width: 100%;
+            height: 152px;
+            background: #ffffff;
+            border: 2px solid #065cc2;
+            border-radius: 4px;
+            display: flex;
+            .address {
+              display: flex;
+              flex-direction: column;
+              justify-content: center;
+              width: 77%;
+              margin-left: 19px;
+              margin-right: 3px;
+              h3 {
+                font-family: 'PT Root UI';
+                font-style: normal;
+                font-weight: 700;
+                font-size: 22px;
+                line-height: 28px;
+                letter-spacing: 0.13px;
+                color: #333333;
+              }
+              span {
+                font-family: 'PT Root UI';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 22px;
+                line-height: 28px;
+                color: #1a1a1a;
+              }
+            }
+            .courier-price {
+              display: flex;
+              align-items: center;
+              span {
+                font-family: 'PT Root UI';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 22px;
+                line-height: 28px;
+                letter-spacing: 0.13px;
+                color: #333333;
+              }
+            }
+          }
+          .courier-right {
+            display: flex;
+            max-width: 489px;
+            width: 100%;
+            height: 152px;
+            background: #ffffff;
+            border: 1px solid #d6d6d6;
+            border-radius: 4px;
+            .address {
+              display: flex;
+              flex-direction: column;
+              justify-content: center;
+              width: 77%;
+              margin-left: 19px;
+              margin-right: 41px;
+              h3 {
+                font-family: 'PT Root UI';
+                font-style: normal;
+                font-weight: 700;
+                font-size: 22px;
+                line-height: 28px;
+                letter-spacing: 0.13px;
+                color: #333333;
+              }
+              span {
+                font-family: 'PT Root UI';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 22px;
+                line-height: 28px;
+                color: #1a1a1a;
+              }
+            }
+            .courier-price {
+              display: flex;
+              align-items: center;
+              span {
+                font-family: 'PT Root UI';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 22px;
+                line-height: 28px;
+                letter-spacing: 0.13px;
+                color: #333333;
+              }
+            }
+          }
+        }
+        //=====/Courier=====//
+
+        .choose-location {
+          margin-bottom: 27px;
+          .location-link {
+            font-family: 'PT Root UI';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 22px;
+            line-height: 28px;
+            color: #065cc2;
+          }
+        }
+
+        //=====Date=====//
+        .date-info {
+          max-width: 992px;
+          // width: 78%;
+          width: 100%;
+          display: flex;
+          // justify-content: space-between;
+          align-items: center;
+          margin-bottom: 14px;
+          gap: 1.5%;
+          .date-left {
+            max-width: 272px;
+            width: 100%;
+            height: 96px;
+            background: #ffffff;
+            border: 2px solid #065cc2;
+            border-radius: 4px;
+            padding: 17px;
+            h3 {
+              font-family: 'PT Root UI';
+              font-style: normal;
+              font-weight: 700;
+              font-size: 22px;
+              line-height: 28px;
+              letter-spacing: 0.13px;
+              color: #333333;
+              margin-bottom: -12px;
+            }
+            span {
+              font-family: 'PT Root UI';
+              font-style: normal;
+              font-weight: 400;
+              font-size: 22px;
+              line-height: 28px;
+              letter-spacing: 0.13px;
+              color: #333333;
+            }
+          }
+          .date-right {
+            display: flex;
+            align-items: center;
+            max-width: 500px;
+            width: 100%;
+            height: 96px;
+            .right-info {
+              max-width: 261px;
+              width: 100%;
+              height: 96px;
+              background: #ffffff;
+              border: 1px solid #d6d6d6;
+              border-radius: 4px;
+              padding: 17px;
+              h3 {
+                font-family: 'PT Root UI';
+                font-style: normal;
+                font-weight: 700;
+                font-size: 22px;
+                line-height: 28px;
+                letter-spacing: 0.13px;
+                color: #333333;
+                margin-bottom: -12px;
+              }
+              span {
+                font-family: 'PT Root UI';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 22px;
+                line-height: 28px;
+                letter-spacing: 0.13px;
+                color: #333333;
+              }
+            }
+          }
+          .choose-date {
+            display: flex;
+            align-items: center;
+            max-width: 209px;
+            width: 100%;
+            height: 28px;
+            margin-left: 29px;
+            .date-link {
+              font-family: 'PT Root UI';
+              font-style: normal;
+              font-weight: 400;
+              font-size: 22px;
+              line-height: 28px;
+              color: #065cc2;
+            }
+          }
+        }
+        //=====/Date=====//
+
+        .form {
+          margin-bottom: 30px;
+          .message-form {
+            display: flex;
+            align-items: center;
+            margin-bottom: 14px;
+            .message-checkbox {
+              width: 24px;
+              height: 24px;
+            }
+            .message-text {
+              font-family: 'PT Root UI';
+              font-style: normal;
+              font-weight: 400;
+              font-size: 22px;
+              line-height: 28px;
+              color: #333333;
+              margin-left: 10px;
+            }
+          }
+          .delivery-form {
+            display: flex;
+            align-items: center;
+            .delivery-checkbox {
+              width: 24px;
+              height: 24px;
+              opacity: 0.3;
+            }
+            .delivery-text {
+              font-family: 'PT Root UI';
+              font-style: normal;
+              font-weight: 400;
+              font-size: 22px;
+              line-height: 28px;
+              color: #333333;
+              margin-left: 10px;
+            }
+          }
+        }
+
+        //=====Receiver=====//
+        .receiver-info {
+          .receiver-title {
+            margin-bottom: 14px;
+            h2 {
+              font-family: 'PT Root UI';
+              font-style: normal;
+              font-weight: 700;
+              font-size: 29px;
+              line-height: 37px;
+              color: #333333;
+            }
+          }
+          .receiver-contacts {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            width: 88%;
+            .receiver-name {
+              width: 572px;
+              height: 116px;
+              .name-info {
+                width: 572px;
+                height: 74px;
+                background: #ffffff;
+                border: 1px solid #d6d6d6;
+                border-radius: 4px;
+                select {
+                  border: none;
+                  font-family: 'PT Root UI';
+                  font-style: normal;
+                  font-weight: 700;
+                  font-size: 22px;
+                  line-height: 28px;
+                  letter-spacing: 0.13px;
+                  color: #333333;
+                }
+              }
+              a {
+                font-family: 'PT Root UI';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 22px;
+                line-height: 28px;
+                color: #065cc2;
+              }
+            }
+            .receiver-phone {
+              width: 287px;
+              height: 116px;
+              .phone-info {
+                width: 287px;
+                height: 74px;
+                background: #ffffff;
+                border: 1px solid #d6d6d6;
+                border-radius: 4px;
+                select {
+                  border: none;
+                  font-family: 'PT Root UI';
+                  font-style: normal;
+                  font-weight: 700;
+                  font-size: 22px;
+                  line-height: 28px;
+                  letter-spacing: 0.13px;
+                  color: #333333;
+                }
+              }
+              a {
+                font-family: 'PT Root UI';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 22px;
+                line-height: 28px;
+                color: #065cc2;
+              }
+            }
+          }
+        }
+        //=====/Receiver=====//
+      }
+
+      //=====Cart=====//
+      .cart-block {
+        width: 575px;
+        position: relative;
+        border-left: 1px solid #d6d6d6;
+        .cart-title {
+          margin-top: 37px;
+          margin-bottom: 29px;
+
+          span {
+            font-family: 'PT Root UI';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 29px;
+            line-height: 37px;
+            color: #333333;
+          }
+        }
+        .cart-info {
+          position: relative;
+          display: flex;
+          align-items: center;
+
+          .info-descr {
+            font-family: 'PT Root UI';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 22px;
+            line-height: 21px;
+            color: #333333;
+            margin-right: 30.8%;
+          }
+          .info-price {
+            font-family: 'PT Root UI';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 22px;
+            line-height: 21px;
+            text-align: right;
+            font-feature-settings: 'pnum' on, 'lnum' on;
+            color: #333333;
+          }
+
+          &:after {
+            content: '';
+            position: absolute;
+            width: 489px;
+            height: 1px;
+            left: 0px;
+            top: 150px;
+            background: #d6d6d6;
+          }
+        }
+      }
+    }
+  }
+
+  .order-footer {
+    max-width: 1920px;
+    width: 100%;
+    height: 119px;
+    background: white;
+    border: 1px solid #c5c5c5;
+    margin-top: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    .footer-btn {
+      max-width: 398px;
+      width: 100%;
+      height: 80px;
+      background: linear-gradient(0deg, #ec0002, #ec0002),
+        linear-gradient(91.91deg, rgba(208, 38, 38, 0) 0%, #d02626 99.65%), #ff0000;
+      border: 1px solid #e01d1d;
+      box-shadow: 0px 3px 8px rgba(0, 0, 0, 0.12), 0px 3px 1px rgba(0, 0, 0, 0.04),
+        0px 2px 0px rgba(149, 135, 128, 0.4);
+      border-radius: 4px;
+      margin-left: 120px;
+
+      font-family: 'PT Root UI';
+      font-style: normal;
+      font-weight: 700;
+      font-size: 29px;
+      line-height: 37px;
+      letter-spacing: 0.5px;
+      color: #ffffff;
+    }
+    .summary {
+      display: flex;
+      align-items: center;
+      margin-right: 184px;
+      span {
+        font-family: 'PT Root UI';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 22px;
+        line-height: 28px;
+        color: #333333;
+        margin-right: 113px;
+      }
+      b {
+        font-family: 'PT Root UI';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 35px;
+        line-height: 44px;
+        text-align: right;
+        color: #333333;
+      }
+    }
+  }
+}

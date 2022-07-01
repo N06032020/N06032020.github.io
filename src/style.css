@@ -410,7 +410,7 @@ body {
   line-height: 21px;
   color: #333333;
 }
-.page .order-main .order-info .delivery-block .receiver-info .receiver-contacts .receiver-name .name-info select {
+.page .order-main .order-info .delivery-block .receiver-info .receiver-contacts .receiver-name .name-info .select__desktop {
   border: none;
   font-family: "PT Root UI";
   font-style: normal;
@@ -420,9 +420,15 @@ body {
   letter-spacing: 0.13px;
   color: #333333;
   position: absolute;
-  left: 9px;
+  left: 13px;
   bottom: 10px;
   cursor: pointer;
+  appearance: none;
+  background-image: url(/src/images/arrowdown.svg);
+  background-repeat: no-repeat;
+  background-position: 524px -2px;
+  width: 95%;
+  height: 40%;
 }
 .page .order-main .order-info .delivery-block .receiver-info .receiver-contacts .receiver-name a {
   font-family: "PT Root UI";
@@ -455,7 +461,7 @@ body {
   line-height: 21px;
   color: #333333;
 }
-.page .order-main .order-info .delivery-block .receiver-info .receiver-contacts .receiver-phone .phone-info select {
+.page .order-main .order-info .delivery-block .receiver-info .receiver-contacts .receiver-phone .phone-info .select-phone__desktop {
   border: none;
   font-family: "PT Root UI";
   font-style: normal;
@@ -467,6 +473,12 @@ body {
   position: absolute;
   bottom: 9px;
   cursor: pointer;
+  appearance: none;
+  background-image: url(/src/images/arrowdown.svg);
+  background-repeat: no-repeat;
+  background-position: 236px -2px;
+  width: 95%;
+  height: 40%;
 }
 .page .order-main .order-info .delivery-block .receiver-info .receiver-contacts .receiver-phone a {
   font-family: "PT Root UI";
@@ -706,9 +718,47 @@ body {
 }
 .page .select__mobile {
   display: none;
+  border: none;
+  font-family: "PT Root UI";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 28px;
+  letter-spacing: 0.13px;
+  color: #333333;
+  position: absolute;
+  left: 13px;
+  bottom: 10px;
+  cursor: pointer;
+  appearance: none;
+  background-image: url(/src/images/arrowdown.svg);
+  background-repeat: no-repeat;
+  background-position: 281px -2px;
+  width: 95%;
+  height: 40%;
 }
 .page .span__mobile {
   display: none;
+}
+.page .select-phone__mobile {
+  display: none;
+  border: none;
+  font-family: "PT Root UI";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 28px;
+  letter-spacing: 0.13px;
+  color: #333333;
+  position: absolute;
+  bottom: 9px;
+  cursor: pointer;
+  appearance: none;
+  background-image: url(/src/images/arrowdown.svg);
+  background-repeat: no-repeat;
+  background-position: 160px -2px;
+  width: 94%;
+  height: 35%;
 }
 .page .popup.show {
   visibility: visible;
@@ -1176,6 +1226,12 @@ body {
     display: none;
   }
   .span__mobile {
+    display: block !important;
+  }
+  .select-phone__desktop {
+    display: none;
+  }
+  .select-phone__mobile {
     display: block !important;
   }
 }

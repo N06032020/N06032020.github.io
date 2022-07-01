@@ -408,7 +408,7 @@ body {
                   line-height: 21px;
                   color: #333333;
                 }
-                select {
+                .select__desktop {
                   border: none;
                   font-family: 'PT Root UI';
                   font-style: normal;
@@ -418,9 +418,15 @@ body {
                   letter-spacing: 0.13px;
                   color: #333333;
                   position: absolute;
-                  left: 9px;
+                  left: 13px;
                   bottom: 10px;
                   cursor: pointer;
+                  appearance: none;
+                  background-image: url(/src/images/arrowdown.svg);
+                  background-repeat: no-repeat;
+                  background-position: 524px -2px;
+                  width: 95%;
+                  height: 40%;
                 }
               }
               a {
@@ -453,7 +459,7 @@ body {
                   line-height: 21px;
                   color: #333333;
                 }
-                select {
+                .select-phone__desktop {
                   border: none;
                   font-family: 'PT Root UI';
                   font-style: normal;
@@ -465,6 +471,12 @@ body {
                   position: absolute;
                   bottom: 9px;
                   cursor: pointer;
+                  appearance: none;
+                  background-image: url(/src/images/arrowdown.svg);
+                  background-repeat: no-repeat;
+                  background-position: 236px -2px;
+                  width: 95%;
+                  height: 40%;
                 }
               }
               a {
@@ -727,9 +739,48 @@ body {
   }
   .select__mobile {
     display: none;
+    border: none;
+    font-family: 'PT Root UI';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 28px;
+    letter-spacing: 0.13px;
+    color: #333333;
+    position: absolute;
+    left: 13px;
+    bottom: 10px;
+    cursor: pointer;
+    appearance: none;
+    background-image: url(/src/images/arrowdown.svg);
+    background-repeat: no-repeat;
+    background-position: 281px -2px;
+    width: 95%;
+    height: 40%;
   }
   .span__mobile {
     display: none;
+  }
+
+  .select-phone__mobile {
+    display: none;
+    border: none;
+    font-family: 'PT Root UI';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 28px;
+    letter-spacing: 0.13px;
+    color: #333333;
+    position: absolute;
+    bottom: 9px;
+    cursor: pointer;
+    appearance: none;
+    background-image: url(/src/images/arrowdown.svg);
+    background-repeat: no-repeat;
+    background-position: 160px -2px;
+    width: 94%;
+    height: 35%;
   }
 
   //=====/Mobile=====//

@@ -765,10 +765,8 @@ body {
 }
 .page .popup {
   visibility: hidden;
-  position: absolute;
+  position: fixed;
   background: #ffffff;
-  width: 360px;
-  height: 640px;
   padding-top: 40px;
   padding-left: 16px;
   padding-right: 16px;
@@ -776,9 +774,11 @@ body {
   display: flex;
   align-items: center;
   flex-direction: column;
+  width: 100vw;
+  height: 100vh;
 }
 .page .popup .popup-main {
-  padding-bottom: 326px;
+  height: -webkit-fill-available;
 }
 .page .popup .popup-main .popup-title {
   margin-bottom: 20px;
@@ -861,6 +861,7 @@ body {
   margin-left: 186px;
 }
 .page .popup .popup-footer {
+  margin-bottom: 15px;
   border: 1px solid #c5c5c5;
   display: flex;
   flex-direction: column;

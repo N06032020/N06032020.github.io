@@ -58,7 +58,7 @@ body {
   border-left: 1px solid #c5c5c5;
   border-right: 1px solid #c5c5c5;
   border-radius: 5px;
-  margin-left: 77px;
+  margin: 0 auto;
   display: flex;
   justify-content: space-between;
 }
@@ -1129,6 +1129,11 @@ body {
   }
 }
 @media (max-width: 1660px) {
+  .cart-block {
+    padding-left: 0px !important;
+  }
+}
+@media (max-width: 1530px) {
   .cart-block {
     display: none;
   }

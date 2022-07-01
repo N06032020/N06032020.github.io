@@ -337,10 +337,19 @@
 //=====max-width: 1660px=====//
 @media (max-width: 1660px) {
   .cart-block {
-    display: none;
+    // display: none;
+    padding-left: 0px !important;
   }
 }
 //=====/max-width: 1660px=====//
+
+//=====max-width: 1530px=====//
+@media (max-width: 1530px) {
+  .cart-block {
+    display: none;
+  }
+}
+//=====/max-width: 1530px=====//
 
 //=====max-width: 1020px=====//
 @media (max-width: 1020px) {

@@ -9,6 +9,28 @@
   </head>
   <body>
     <div class="page">
+      <!-- Popup -->
+      <div class="popup" id="popup">
+        <div class="popup-main">
+          <div class="popup-title">
+            <h2>В заказе 5 товаров (2 кг)</h2>
+          </div>
+          <div class="popup-info">
+            <span class="popup-price">Цена товаров <b class="price-value">29 456 ₽</b></span>
+            <span class="popup-discount">Все скидки <b class="discount-value">–7 732 ₽</b></span>
+            <div class="popup-payment">
+              <span>К оплате <b class="payment-value">21 072 ₽</b></span>
+            </div>
+          </div>
+        </div>
+        <div class="popup-footer">
+          <button class="popup-btn" id="#popup-close-btn" onclick="popupClose()">
+            Закрыть подробности
+          </button>
+        </div>
+      </div>
+      <!-- /Popup -->
+
       <div class="order-main">
         <div class="main-title">Оформление заказа</div>
         <div class="order-info">
@@ -17,8 +39,8 @@
             <div class="delivery-title">
               <h2>Доставка</h2>
               <div class="arrows">
-                <button class="arrow">
-                  <img class="arrow-left" src="/src/images/vector.svg" alt="arrow-left" />
+                <button class="arrow-left">
+                  <img class="arrow-left__img" src="/src/images/vector.svg" alt="arrow-left" />
                 </button>
                 <button class="arrow">
                   <img src="/src/images/vector.svg" alt="arrow-right" />
@@ -177,10 +199,13 @@
         <div class="summary"><span>Итого к оплате на сайте:</span><b>21 072 ₽</b></div>
         <div class="summary__mobile">
           <div class="summary-price"><b>К оплате: 21 072 ₽</b></div>
-          <div class="more"><a href="#">Подробнее</a></div>
+          <div class="more" id="#popup-open-btn" onclick="popupOpen()">
+            <a href="#">Подробнее</a>
+          </div>
         </div>
       </div>
       <!-- /Footer -->
     </div>
+    <script src="/src/script.js"></script>
   </body>
 </html>

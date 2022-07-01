@@ -10,6 +10,7 @@ body {
   display: flex;
   flex-direction: column;
   min-height: 100vh;
+  position: relative;
   .order-main {
     max-width: 1905px;
     width: 100%;
@@ -86,7 +87,18 @@ body {
               display: flex;
               align-items: center;
               justify-content: center;
-              .arrow-left {
+            }
+            .arrow-left {
+              width: 40px;
+              height: 40px;
+              background: #ffffff;
+              border: 1px solid #d6d6d6;
+              border-radius: 4px;
+              display: flex;
+              align-items: center;
+              justify-content: center;
+              opacity: 0.3;
+              .arrow-left__img {
                 transform: scale(-1, 1);
               }
             }
@@ -573,6 +585,7 @@ body {
     }
   }
 
+  //=====Mobile=====//
   .choose-date__mobile {
     display: none;
     align-items: center;
@@ -697,6 +710,141 @@ body {
         font-size: 14px;
         line-height: 18px;
         letter-spacing: 0.13px;
+        color: #333333;
+      }
+    }
+  }
+  //=====/Mobile=====//
+
+  //=====Popup=====//
+  .popup.show {
+    visibility: visible;
+  }
+  .popup {
+    visibility: hidden;
+    position: absolute;
+    background: #ffffff;
+    width: 360px;
+    height: 640px;
+    padding-top: 40px;
+    padding-left: 16px;
+    padding-right: 16px;
+    z-index: 1;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    .popup-main {
+      padding-bottom: 326px;
+      .popup-title {
+        margin-bottom: 20px;
+        h2 {
+          font-family: 'PT Root UI';
+          font-style: normal;
+          font-weight: 700;
+          font-size: 21px;
+          line-height: 26px;
+          color: #333333;
+        }
+      }
+      .popup-info {
+        display: flex;
+        flex-direction: column;
+
+        .popup-price {
+          font-family: 'PT Root UI';
+          font-style: normal;
+          font-weight: 400;
+          font-size: 17px;
+          line-height: 21px;
+          color: #333333;
+          margin-bottom: 15px;
+        }
+        .price-value {
+          font-family: 'PT Root UI';
+          font-style: normal;
+          font-weight: 700;
+          font-size: 17px;
+          line-height: 21px;
+          text-align: right;
+          font-feature-settings: 'pnum' on, 'lnum' on;
+          color: #333333;
+          margin-left: 144px;
+        }
+        .popup-discount {
+          font-family: 'PT Root UI';
+          font-style: normal;
+          font-weight: 400;
+          font-size: 17px;
+          line-height: 21px;
+          color: #333333;
+          margin-bottom: 19px;
+        }
+        .discount-value {
+          font-family: 'PT Root UI';
+          font-style: normal;
+          font-weight: 700;
+          font-size: 17px;
+          line-height: 21px;
+          text-align: right;
+          font-feature-settings: 'pnum' on, 'lnum' on;
+          color: #333333;
+          margin-left: 165px;
+        }
+        .popup-payment {
+          border-top: 1px solid #d6d6d6;
+          border-bottom: 1px solid #d6d6d6;
+          padding-top: 22px;
+          padding-bottom: 22px;
+          span {
+            font-family: 'PT Root UI';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 17px;
+            line-height: 21px;
+            color: #333333;
+          }
+        }
+        .payment-value {
+          font-family: 'PT Root UI';
+          font-style: normal;
+          font-weight: 700;
+          font-size: 17px;
+          line-height: 21px;
+          text-align: right;
+          font-feature-settings: 'pnum' on, 'lnum' on;
+          color: #333333;
+          margin-left: 186px;
+        }
+      }
+    }
+    .popup-footer {
+      border: 1px solid #c5c5c5;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      padding: 16px;
+      gap: 16px;
+
+      width: 360px;
+      height: 84px;
+
+      background: linear-gradient(0deg, #ffffff, #ffffff), #f8f8f8;
+      .popup-btn {
+        width: 328px;
+        height: 52px;
+        background: #ffffff;
+        border: 1px solid #d6d6d6;
+        box-shadow: 0px 3px 8px rgba(0, 0, 0, 0.12), 0px 3px 1px rgba(0, 0, 0, 0.04),
+          0px 2px 0px rgba(149, 135, 128, 0.4);
+        border-radius: 4px;
+
+        font-family: 'PT Root UI';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 17px;
+        line-height: 21px;
+        letter-spacing: 0.5px;
         color: #333333;
       }
     }
